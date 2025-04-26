@@ -56,5 +56,5 @@ def generate_text(model_path, num_chars=500, seed_text="\n"):
     return ''.join(ix_to_char[ix] for ix in generated)
 
 if __name__ == "__main__":
-    generated = generate_text('final_model.npz', num_chars=1000, seed_text="The ")
+    generated = generate_text('final_model.npz', num_chars=1000, seed_text="Once upon a time  ")
     print("\nGenerated Text:\n" + generated)
