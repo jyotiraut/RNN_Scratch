@@ -15,6 +15,11 @@ Adagrad optimizer for stable training
 
 Modular code: data loading, model, training, and generation scripts
 
+
+
+
+
+```
 char_rnn_project/
 ├── data/
 │   └── input.txt          # Your training text
@@ -27,6 +32,22 @@ char_rnn_project/
 └── requirements.txt
 
 
+## Usage
+
+### 1. Prepare Data
+
+- Place your training text file as `data/input.txt`.
+- Use any large plain text file (e.g., Shakespeare, song lyrics, etc.).
+
+---
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
 
 ### 3. Train the Model
 
