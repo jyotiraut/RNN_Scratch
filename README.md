@@ -28,41 +28,6 @@ char_rnn_project/
 
 
 
-
-
-
-
-
-```
-char_rnn_project/
-├── data/
-│   └── input.txt          # Your training text
-├── src/
-│   ├── data_utils.py      # Data loading
-│   ├── model.py           # RNN model
-│   ├── train.py           # Training script
-│   └── generate.py        # Text generation script
-├── README.md
-└── requirements.txt
-
-
-## Usage
-
-### 1. Prepare Data
-
-- Place your training text file as `data/input.txt`.
-- Use any large plain text file (e.g., Shakespeare, song lyrics, etc.).
-
----
-
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ### 3. Train the Model
 
 ```bash
