@@ -15,20 +15,6 @@ Adagrad optimizer for stable training
 
 Modular code: data loading, model, training, and generation scripts
 
-char_rnn_project/
-├── data/
-│   └── input.txt          # Your training text
-├── src/
-│   ├── data_utils.py      # Data loading
-│   ├── model.py           # RNN model
-│   ├── train.py           # Training script
-│   └── generate.py        # Text generation script
-├── README.md
-└── requirements.txt
-
-
-
-
 
 
 
